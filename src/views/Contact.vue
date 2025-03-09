@@ -36,7 +36,7 @@ export default {
       gui = new GUI();
 
       // 创建一个网格
-      const texture = new THREE.TextureLoader().load('./1.jpg');
+      const texture = new THREE.TextureLoader().load('./guoqi.png');
       const geometry = new THREE.PlaneGeometry(1, 1, 32, 32);
       const material = new THREE.ShaderMaterial({
         uniforms: {

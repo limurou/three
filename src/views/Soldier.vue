@@ -76,7 +76,7 @@ export default {
       mesh.position.set(-2, 0, 0);
       // 加载 GLTF 模型
       const loader = new GLTFLoader();
-      loader.load('./su.glb', (gltf) => {
+      loader.load('/src/assets/su.glb', (gltf) => {
         const model = gltf.scene;
         
         scene.add(model);

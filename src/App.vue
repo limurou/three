@@ -40,7 +40,7 @@ function handleSelect(index) {
               <div class="img-container">
                 <img src="/src/assets/1.jpg" alt="Option 3" class="img" />
               </div>
-              <div class="title">Option 3</div>
+              <div class="title">国旗</div>
             </el-menu-item>
             <el-menu-item index="4" class="menu-item" @click="router.push('/home')">
               <div class="img-container">
@@ -78,6 +78,13 @@ function handleSelect(index) {
               </div>
               <div class="title">士兵</div>
             </el-menu-item>
+            <el-menu-item index="4" class="menu-item" @click="router.push('/firework')">
+              <div class="img-container">
+                <img src="/src/assets/1.jpg" alt="Option 3" class="img" />
+              </div>
+              <div class="title">烟花</div>
+            </el-menu-item>
+            
             
           </el-menu>
         </el-aside>

@@ -9,6 +9,7 @@ import GalaxyMove from '../views/GalaxyMove.vue';
 import Smoke from '../views/Smoke.vue';
 import Soldier from '../views/Soldier.vue';
 import Show from '../views/Show.vue';
+import FireWork from '../views/FireWork.vue';
 
 const routes = [
   { path: '/', component: Show },
@@ -20,7 +21,8 @@ const routes = [
   { path: '/galaxy', component: Galaxy },
   { path: '/galaxymove', component: GalaxyMove },
   { path: '/smoke', component: Smoke },
-  { path: '/soldier', component: Soldier }
+  { path: '/soldier', component: Soldier },
+  { path: '/firework', component: FireWork },
 ];
 
 const router = createRouter({
